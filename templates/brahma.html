@@ -1,0 +1,26 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/connect.css' %}">
+</head>
+<body>
+   
+    <CEnter><h1>THE WORLD OPERATOR</CEnter>
+
+
+    
+    <center><img src="{% static 'images/brahma.jpg' %}" alt="600px" width="600"></center>
+
+
+    <h1><center>
+        <a href="{% url 'vishnu:creator' %}">LOOK FOR CREATOR</a><br>
+        <a href="{% url 'shiva:distroyer' %}">LOOK FOR DESTROYER</a>
+    </center></h1>
+
+</body>
+</html>
